@@ -4,7 +4,8 @@
   "description": "node asci engine for game of life",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/NickDrew/ascii-life/issues"
   },
-  "homepage": "https://github.com/NickDrew/ascii-life#readme"
+  "homepage": "https://github.com/NickDrew/ascii-life#readme",
+  "dependencies": {
+    "sleep": "^6.1.0",
+    "terminal-kit": "^1.35.2"
+  }
 }
